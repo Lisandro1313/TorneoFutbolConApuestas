@@ -53,7 +53,7 @@ public class Apuestas {
                 System.out.println("Usted aposto por: " + equipoUsuario.getNombre());
 
                 if (equipoUsuario.getNombre() == ganadoresFinales.get(0).getNombre()) {
-                    System.out.println("¡Felicidades! Has ganado " + (this.monto * 13.27) + "de pesos en tu apuesta.");
+                    System.out.println("¡Felicidades! Has ganado " + (this.monto * 13.27) + " de pesos en tu apuesta.");
                 } else {
                     System.out.println("Lo siento, has perdido tu apuesta de " + this.monto + " pesos.");
                 }
